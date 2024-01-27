@@ -4,6 +4,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    """
+    Simple flask web application
+    """
     return 'Hello, World!'
 
 
